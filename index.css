@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    font-family: 'Quicksand', sans-serif;
+    color: aliceblue;
+    font-weight: bold;
+    text-align: center;
+}
+
+#container {    
+    background: rgb(252,176,69);
+    background: linear-gradient(90deg, rgba(252,176,69,1) 18%, rgba(253,29,29,1) 61%, rgba(131,58,180,1) 98%);
+    margin:100px auto;
+    width: 40%;
+    height: 60%;
+    padding: 60px 50px 20px;
+    border-radius:20px;
+    text-shadow: 0px 0px 5px black;
+    box-shadow: 0px 0px 10px black;
+}
+
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-top: 50px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+
+
+#reset-btn {
+    background: rgb(253,29,29);
+    background: linear-gradient(90deg, rgba(253,29,29,1) 27%, rgba(131,58,180,1) 52%, rgba(252,176,69,1) 77%);
+    
+}
+
+#reset-btn:hover {
+    box-shadow: 0px 0px 5px black;
+}
+
+#buttons-box {
+   display: flex;
+   justify-content: space-around;
+
+}
